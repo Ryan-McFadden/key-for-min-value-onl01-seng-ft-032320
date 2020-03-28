@@ -4,7 +4,7 @@
 
 
 def key_for_min_value(name_hash)   
-  min_key = nil   
+  min_key = 0   
   min_value = nil  
   
   name_hash do |name, age|     
