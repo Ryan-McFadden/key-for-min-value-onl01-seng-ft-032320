@@ -3,8 +3,9 @@
 
 def key_for_min_value(name_hash)
   name_hash.collect do |word, num|
-    if num < minimum 
-      num = minimum
+    if min = nil 
+      min = num
+    elsif 
     end
   end
 end
