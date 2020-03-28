@@ -5,6 +5,6 @@ def key_for_min_value(name_hash)
   low_num = 0 
   low_name = nil
   
-  name_hash.collect do |name, num|
+  name_hash.each do |name, num|
     
 end
